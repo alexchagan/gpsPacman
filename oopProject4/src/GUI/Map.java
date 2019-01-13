@@ -11,7 +11,7 @@ import Geom.Point3D;
  */
 public class Map {
 
-   	   	//double PixelsWidthX=1433;
+   	   	
 	     double PixelsWidthX=1297;
 		 double rangeYpixels=-642;
 		 double rangeXpolar=0.0100;

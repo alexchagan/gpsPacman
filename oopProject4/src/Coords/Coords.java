@@ -2,7 +2,19 @@ package Coords;
 
 import Geom.Point3D;
 
+/**
+ * This class contains certain calculations on gps points.
+ * @author Alex Ilya Nour
+ *
+ */
 public class Coords {
+	
+	/**
+	 * Calculates the azimuth between to gps points
+	 * @param gps0
+	 * @param gps1
+	 * @return
+	 */
 
 	public double azimuth(Point3D gps0,Point3D gps1)
 	{

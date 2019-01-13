@@ -59,9 +59,7 @@ import Game.Packman;
 public class MyFrame extends JFrame implements MouseListener
 {
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 
 	private BufferedImage arielimg;
@@ -170,6 +168,11 @@ public class MyFrame extends JFrame implements MouseListener
 		}		
 
 	}
+	
+	/**
+	 * Gets the initial "game-board" of the configuration
+	 * @param conf
+	 */
 
 	public void initGame(String conf)
 	{
@@ -180,12 +183,12 @@ public class MyFrame extends JFrame implements MouseListener
 
 		hashCode = play.getHash1();
 
-		play.setIDs(69696969,6969696,6969696);
+		play.setIDs(123,123,123);
 
 		String map_data = play.getBoundingBox();
 		System.out.println("Bounding Box info: "+map_data);
 
-		// 4) get the game-board data
+		//  get the game-board data
 		ArrayList<String> board_data = play.getBoard();
 		for(int i=0;i<board_data.size();i++) {
 			System.out.println(board_data.get(i));
@@ -317,22 +320,9 @@ public class MyFrame extends JFrame implements MouseListener
 
 		}
 
-
-
-
-
-
-
-
-
-
-
 	}
 	public void runpac()
 	{
-
-
-
 		play.start();
 		animation = new Animation();
 		Thread thread = new Thread(animation);
