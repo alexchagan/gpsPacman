@@ -86,12 +86,11 @@ public class MyFrame extends JFrame implements MouseListener
 		this.addMouseListener(this); 
 		this.setVisible(true);
 		this.setSize(1297,this.arielimg.getHeight());
-		//this.setSize(,this.arielimg.getHeight());
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		System.out.println(arielimg.getWidth()+"    "+arielimg.getHeight());
 		System.out.println(this.getSize());
 		this.setResizable(false);
-		//paint(getGraphics());
+		
 		repaint();
 
 
@@ -104,9 +103,9 @@ public class MyFrame extends JFrame implements MouseListener
 	{
 		MenuBar menuBar = new MenuBar();
 		Menu input = new Menu("Insert");
-		Menu game = new Menu("Game"); 
+		 
 
-		MenuItem open = new MenuItem("Choose conf.");
+		
 		MenuItem pac = new MenuItem("Packman");
 		Menu playM = new Menu("Play");
 
@@ -117,9 +116,7 @@ public class MyFrame extends JFrame implements MouseListener
 
 
 
-		menuBar.add(game);
-		game.add(open);
-
+		
 		menuBar.add(input);
 
 		input.add(pac);
@@ -338,13 +335,6 @@ public class MyFrame extends JFrame implements MouseListener
 		public void run() {
 
 
-
-			//while(!done) {
-
-
-			//}
-
-
 			while(play.isRuning())
 			{
 				play.rotate(angle);
@@ -379,15 +369,10 @@ public class MyFrame extends JFrame implements MouseListener
 
 
 
-
-
-
-
-
 	@Override
 	public void mouseClicked(MouseEvent arg) {
 		clik = true;
-		System.out.println(arg.getX()+"  "+arg.getY());
+		
 		if(pacf)
 		{
 			if(oneClick)

@@ -6,7 +6,7 @@ import Geom.Point3D;
  * This class represents the boxes in the game that out packman can't go through.
  * The min point represents the left bottom point of the box.
  * The max point represents the right top point of the box.
- * @author gogom
+ * @author Alex Ilya Nour
  *
  */
 public class Box {
