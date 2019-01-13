@@ -41,10 +41,12 @@ Moving our packman to direction we click with the mouse.
 #Coords
 ========
 - Coords: Contains certain calculations on gps points.
+
 #Database
 ========
 - Statistics: Responsible for getting info from database.
 Takes your score and gets the average score of specific configuration from the database and prints both of them.
+
 #Game
 ========
 - Packman: Represents a packman or a ghost.
