@@ -15,7 +15,7 @@ The objective of the game is for the packmen to "eat" all the fruits on the imag
 - Go to Play-->Play
 - Click on the board and the packman will go in that direction
 
-
+![alt tag](http://url/to/img.png)
 - Pink circle: our packman
 - Yellow circles: other packmen that steal fruits and you can eat them
 - Red circles: ghosts that go after us and descrease our points
