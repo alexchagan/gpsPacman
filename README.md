@@ -1,6 +1,6 @@
 
 
-#oopProject4
+#gpsPacman 
 ========
 
 This Project focuses on converting gps (lat,lon,alt) points to pixelated points.  
